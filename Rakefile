@@ -1,7 +1,7 @@
 require 'rubygems'
 require "bundler/setup"
 require 'rake'
-# See http://www.rubygems.org/read/chapter/20 
+# See http://www.rubygems.org/read/chapter/20
 
 def version
   @rpm_contrib_version ||= File.read("CHANGELOG")[/Version ([\d\.]+\w*)$/, 1]
