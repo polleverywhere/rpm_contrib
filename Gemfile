@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem 'newrelic_rpm', '>=3.1.1'
 
